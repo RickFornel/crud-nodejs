@@ -1,0 +1,25 @@
+POST http://localhost:4002/obter
+content-type: application/json
+
+{
+    "name": "camisa azul",
+    "price": 80
+}
+
+###
+GET http://localhost:4002/obter
+
+###
+GET http://localhost:4002/obter/4617ffe9-627d-4579-b059-1946c2cb21b7
+
+###
+PUT http://localhost:4002/obter/e4695bcd-a25e-48f2-bee7-3783df474ac1
+content-type: application/json
+
+{
+    "name": "short branca",
+    "price": 50
+}
+
+###
+DELETE http://localhost:4002/obter/6a8eb807-fca3-452e-887b-14834412ae1e

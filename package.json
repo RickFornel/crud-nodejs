@@ -1,0 +1,16 @@
+{
+  "name": "crud-sem-db",
+  "version": "1.0.0",
+  "description": "Este projeto é um crud sem estar conectado a um banco de dados. Projeto inicial na linguagem.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Riquelme Fornel Marinho",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
